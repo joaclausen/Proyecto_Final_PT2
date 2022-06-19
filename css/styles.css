@@ -1,0 +1,28 @@
+.logotipo{
+    zoom: 8%;
+    opacity: 90%;
+}
+.fondoindex{
+    background-image: url('https://images7.alphacoders.com/108/thumb-1920-1081776.jpg'); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: 100vh;
+}
+.tituloSitio{
+    padding: 20vh 0;
+    text-align: center;
+    font-family: 'Bebas Neue';
+    font-size: 100px;
+}
+.subtituloSitio{
+    text-align: center;
+    position: fixed;
+    left: 42.5vw;
+    top: 42vh;
+}
+@media(max-width: 425px){
+    .tituloSitio{
+        font-size: 50px;
+        left: 15vw;
+    }
+}
