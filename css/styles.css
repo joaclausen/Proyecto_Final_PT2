@@ -41,6 +41,15 @@
     color: white;
 }
 
+/* css de acerca_de.html */
+.fondoabout{
+    background-image: url(/img/8f4030e5e345f51f1c2bacaf410dacb4d4f8bd52.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-color: black;
+}
+
 /* media query */
 @media(max-width: 425px){
     /* css del index.html */
@@ -48,10 +57,21 @@
         font-size: 50px;
         left: 15vw;
     }
+    /* css del acerca_de.html */
+    .fondoabout{
+        background-position-y: 30vh;
+    }
 }
 @media(max-width: 1024px){
     /* css de contacto.html*/
     .fondoContacto{
         background-size: 350px;
     }
+}
+@media(min-width: 2560px){
+    /* css del acerca_de.html */
+   .fondoabout{
+       background-size: 1000px;
+       background-position-y: 15vh;
+   }
 }
