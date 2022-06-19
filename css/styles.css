@@ -1,7 +1,10 @@
+/* css general (todas las paginas) */
 .logotipo{
     zoom: 8%;
     opacity: 90%;
 }
+
+/* css del index.html */
 .fondoindex{
     background-image: url('https://images7.alphacoders.com/108/thumb-1920-1081776.jpg'); 
     background-repeat: no-repeat; 
@@ -20,9 +23,27 @@
     left: 42.5vw;
     top: 42vh;
 }
+
+/* css de contacto.html */
+.fondoContacto{
+    background-image: url(/img/4ixw21xcxvb51.png);
+    background-repeat: no-repeat;
+    background-position-y: 10vh;
+    background-position-x: center;
+    background-color: black;
+}
+
+/* media query */
 @media(max-width: 425px){
+    /* css del index.html */
     .tituloSitio{
         font-size: 50px;
         left: 15vw;
+    }
+}
+@media(max-width: 1024px){
+    /* css de contacto.html*/
+    .fondoContacto{
+        background-size: 350px;
     }
 }
