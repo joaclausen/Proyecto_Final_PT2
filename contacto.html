@@ -21,11 +21,11 @@
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <!-- INICIO -->
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                <a class="nav-link" aria-current="page" href="/index.html">Inicio</a>
               </li>
               <!-- CONTACTO -->
               <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+                <a class="nav-link active" href="contacto.html">Contacto</a>
               </li>
               <!-- ABOUT -->
               <li class="nav-item">
@@ -65,6 +65,25 @@
         </div>
     </nav>
     <!-- header navbar end -->
+
+    <main>
+        <h2 class="titulo_form_contacto">Contactame</h2>
+        <form class="formularioContacto text-center">
+            <div class="mb-3">
+              <label for="nombre" class="form-label"></label>
+              <input type="name" class="form-control-lg" id="nombre" aria-describedby="emailHelp" placeholder="Nombre...">
+            </div>
+            <div class="mb-3">
+              <label for="correo" class="form-label"></label>
+              <input type="email" class="form-control-lg" id="correo" placeholder="E-mail...">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control-lg" id="exampleFormControlTextarea1" placeholder="Escribe un comentario..." rows="5" cols="23"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary text-center">Submit</button>
+        </form>
+    </main>
 
     <!-- footer navbar -->
     <nav class="navbar fixed-bottom navbar-dark bg-dark d-flex justify-content-center">

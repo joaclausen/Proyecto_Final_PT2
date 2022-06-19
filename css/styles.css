@@ -32,6 +32,14 @@
     background-position-x: center;
     background-color: black;
 }
+.formularioContacto{
+   text-align: center;
+}
+.titulo_form_contacto{
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
 
 /* media query */
 @media(max-width: 425px){
