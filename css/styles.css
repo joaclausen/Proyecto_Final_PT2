@@ -62,6 +62,10 @@
     background-color: black;
 }
 
+.tituloDonde{
+    text-align: center;
+    color: red;
+}
 
 /* media query */
 @media(max-width: 425px){
