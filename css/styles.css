@@ -52,6 +52,29 @@
 .tarjeta{
     position: sticky;
 }
+/* css para todas las secciones de informacion */
+.fondoInfo{
+    background-image: url(/img/E-DxjFfXsAwBwHc.jpg);
+}
+.logo_re1{
+    zoom: 50%;
+    border: black solid 15px;
+    background-color: maroon;
+    border-radius: 50px;
+}
+.descripcion1{
+    background-color: black;
+    font-size: 14.7px;
+    padding: 20px;
+}
+.score1{
+    background-color: black;
+}
+.backgroundRe1{
+    background-color: black;
+    color: white;
+    margin: 90px;
+}
 
 /* css para todas las secciones de recomendaciones */
 .fondoRecom{
@@ -61,7 +84,6 @@
     background-size: cover;
     background-color: black;
 }
-
 .tituloDonde{
     text-align: center;
     color: red;
