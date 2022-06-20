@@ -64,10 +64,8 @@
     .fondoabout{
         background-position-y: 30vh;
     }
-    .tarjeta{
-        position: fixed;
-        width: 300vw;
-        right: -100vw;
+    .card{
+        width: 300px !important;
     }
 }
 @media(min-width: 768px) {
