@@ -49,6 +49,9 @@
     background-size: cover;
     background-color: black;
 }
+.tarjeta{
+    position: sticky;
+}
 
 /* media query */
 @media(max-width: 425px){
@@ -60,6 +63,11 @@
     /* css del acerca_de.html */
     .fondoabout{
         background-position-y: 30vh;
+    }
+    .tarjeta{
+        position: fixed;
+        width: 300vw;
+        right: -100vw;
     }
 }
 @media(max-width: 1024px){
