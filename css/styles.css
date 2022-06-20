@@ -18,10 +18,10 @@
     font-size: 100px;
 }
 .subtituloSitio{
-    text-align: center;
-    position: fixed;
-    left: 42.5vw;
+    position: absolute;
     top: 42vh;
+    text-align: center;
+    width: 100%;
 }
 
 /* css de contacto.html */
@@ -68,6 +68,11 @@
         position: fixed;
         width: 300vw;
         right: -100vw;
+    }
+}
+@media(min-width: 768px) {
+    .subtituloSitio{
+        top: 60vh;
     }
 }
 @media(max-width: 1024px){
