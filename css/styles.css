@@ -53,6 +53,16 @@
     position: sticky;
 }
 
+/* css para todas las secciones de recomendaciones */
+.fondoRecom{
+    background-image: url(/img/RESIDENT-EVIL-7-biohazard_20170124155325.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: cover;
+    background-color: black;
+}
+
+
 /* media query */
 @media(max-width: 425px){
     /* css del index.html */
@@ -69,8 +79,15 @@
     }
 }
 @media(min-width: 768px) {
+    /* css del index.html */
     .subtituloSitio{
         top: 60vh;
+    }
+}
+@media(max-width: 768px) {
+    /* css para todas las secciones de recomendaciones */
+    .fondoRecom{
+        background-size: 1000px;
     }
 }
 @media(max-width: 1024px){
